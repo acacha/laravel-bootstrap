@@ -12,7 +12,7 @@ return [
     |
     */
 
-    'directory' => env('BOOTSTRAP_DIRECTORY', 'bootstrap'),
+    'directory' => env('BOOTSTRAP_DIRECTORY', app_path('bootstrap')),
 
 
     /*
