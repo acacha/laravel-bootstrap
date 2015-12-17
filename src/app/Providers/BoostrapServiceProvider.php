@@ -31,7 +31,7 @@ class BootstrapServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->directory = config('bootstrap.directory','bootstrap');
+        $this->directory = config('bootstrap.directory',app_path('bootstrap'));
         $this->file = config('bootstrap.file','bootstrap.php');
         if ( ! is_dir($this->directory))
         {
