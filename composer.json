@@ -1,0 +1,26 @@
+{
+  "name": "acacha/laravel-bootstrap",
+  "description": "A Laravel Bootstrap Service Provider",
+  "license": "MIT",
+  "type": "package",
+  "keywords": ["bootstrap","laravel","acacha"],
+  "authors": [
+    {
+      "name": "Sergi Tur Badenas",
+      "email": "sergiturbadenas@gmail.com",
+      "homepage": "http://acacha.org"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": "~5.0",
+    "symfony/finder":"~3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-4": {"Acacha\\LaravelBootstrap\\": "src/app"}
+  }
+}
