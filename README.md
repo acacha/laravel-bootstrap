@@ -6,7 +6,7 @@ A Laravel Bootstrap Service Provider
 Install Laravel 5 package with:
 
 ```bash
- $ composer require "acacha/laravel-bootstrap:~0.1"
+ $ composer require "acacha/laravel-bootstrap:^0.1"
 ```
  
 Then add BootstrapServiceProvider to providers in config/app.php:
